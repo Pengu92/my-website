@@ -6,7 +6,7 @@
 }
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #27AE60;
+  --color-secondary: #27ae6a;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey0: #f8f8f8;
@@ -80,7 +80,7 @@ section {
 .controls .control {
   padding: 1rem;
   cursor: pointer;
-  background-color:rgb(153, 153, 153);
+  background-color:rgb(167, 167, 167);
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -96,7 +96,7 @@ section {
   pointer-events: none;
 }
 .controls .active-btn {
-  background-color:rgb(25, 173, 104);
+  background-color:rgb(4, 126, 69);
   transition: all 0.4s ease-in-out;
 }
 .controls .active-btn i {
@@ -145,7 +145,7 @@ section {
   transition: all 0.4s ease-in-out;
   width: 65%;
   height: 100%;
-  background-color:rgb(48, 48, 48);
+  background-color:rgb(92, 92, 92);
   position: absolute;
   left: 0;
   top: 0;
@@ -195,7 +195,7 @@ section {
 
 /*About*/
 .about-container {
-  display:inline
+  display:inline;
   grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
   padding-bottom: 5rem;
@@ -244,7 +244,7 @@ section {
   padding: 0 2rem;
 }
 .main-btn .btn-icon {
-  background-color: var(--color-secondary);
+  background-color:rgb(26, 179, 120);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -255,7 +255,7 @@ section {
   text-align: center;
 }
 .main-title h2 {
-  position: relative;
+  position:relative
   text-transform: uppercase;
   font-size: 4rem;
   font-weight: 700;
